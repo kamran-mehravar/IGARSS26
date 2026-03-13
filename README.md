@@ -1,4 +1,5 @@
 
+---
 
 # Hyperspectral Land Surface Classification with Spectral and Spatial CNNs
 
@@ -110,7 +111,7 @@ This suggests that **spectral CNNs may be sufficient** for many mineral classifi
 
 # Repository Structure
 
-
+```
 IGARSS26
 │
 ├── data/
@@ -141,7 +142,7 @@ IGARSS26
 └── visualization/
     ├── classification_maps.py
     └── difference_maps.py
-
+```
 
 ---
 
@@ -149,14 +150,12 @@ IGARSS26
 
 Clone the repository:
 
-
-git clone https://github.com/kamranmehravar/IGARSS26.git
+```bash
+git clone https://github.com/kamran-mehravar/IGARSS26.git
 cd IGARSS26
-
+```
 
 Install dependencies:
-
-Example dependencies:
 
 * Python 3.9+
 * PyTorch
@@ -171,15 +170,15 @@ Example dependencies:
 
 Train the **1D spectral CNN**
 
-
+```bash
 python train_1dcnn.py
-
+```
 
 Train the **3D CNN**
 
-
+```bash
 python train_3dcnn.py
-
+```
 
 ---
 
@@ -187,9 +186,9 @@ python train_3dcnn.py
 
 Generate full-scene classification maps:
 
-
+```bash
 python sliding_window_inference.py
-
+```
 
 This produces:
 
