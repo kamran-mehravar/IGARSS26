@@ -1,6 +1,4 @@
 
----
-
 # Hyperspectral Land Surface Classification with Spectral and Spatial CNNs
 
 This repository contains the implementation and experimental workflow for the research paper:
@@ -106,43 +104,6 @@ However:
 * Spatial context becomes less important in **highly mixed geological environments**
 
 This suggests that **spectral CNNs may be sufficient** for many mineral classification tasks while being computationally cheaper.
-
----
-
-# Repository Structure
-
-```
-IGARSS26
-│
-├── data/
-│   ├── hyperspectral_cube
-│   └── labels
-│
-├── preprocessing/
-│   ├── continuum_removal.py
-│   └── data_alignment.py
-│
-├── models/
-│   ├── spectral_cnn.py
-│   └── resnet3d_model.py
-│
-├── training/
-│   ├── train_1dcnn.py
-│   ├── train_3dcnn.py
-│   └── training_utils.py
-│
-├── inference/
-│   ├── sliding_window_inference.py
-│   └── pixelwise_inference.py
-│
-├── evaluation/
-│   ├── confusion_matrix.py
-│   └── metrics.py
-│
-└── visualization/
-    ├── classification_maps.py
-    └── difference_maps.py
-```
 
 ---
 
