@@ -126,7 +126,27 @@ Install dependencies:
 * Matplotlib
 
 ---
-
+```
+project/
+│
+├── README.md
+│
+├── data_preparation/
+│   └── build_dataset_from_georef_labels.py
+│
+├── training_inference/
+│   └── Model_Supervised_1d_3d.py
+│
+├── visualization/
+│   └── RGB_copritmap_and_diff.py
+│
+├── utils/
+│   ├── analyze_dataset_out.py
+│   ├── analyze_dataset_out_v2.py
+│   ├── check_align.py
+│   └── inspect_labels.py
+```
+---
 # Training
 
 Train the **1D spectral CNN**
