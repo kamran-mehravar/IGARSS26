@@ -1,6 +1,4 @@
 
-
-```markdown
 # Hyperspectral Land Surface Classification with Spectral and Spatial CNNs
 
 This repository contains the implementation and experimental workflow for the research paper:
